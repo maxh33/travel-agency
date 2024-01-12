@@ -11,19 +11,19 @@ Max Travel Agency is a versatile web solution designed to showcase the endless p
 
 ## How to Use
 
-![Demo GIF](https://github.com/maxh33/travel-agency)
+![Demo GIF]()
 
 To use Max Travel Agency, simply navigate to the website and explore the different sections. You can view different travel destinations, learn more about our services, and contact us for more information.
 
 ## Deployment
 
-Max Travel Agency is deployed on Vercel. You can view the live site at [insert URL here].
+Max Travel Agency is deployed on Vercel. You can view the live site at [https://travel-agency-six-gamma.vercel.app/](https://travel-agency-six-gamma.vercel.app/)
 
 ## Running the Page Locally
 
 To run the page locally, follow these steps:
 
-1. Clone the repository to your local machine using `git clone ` []()
+1. Clone the repository to your local machine using `git clone ` [https://github.com/maxh33/travel-agency](https://github.com/maxh33/travel-agency)
 2. Open the `index.html` file in your browser.
 
 ## Future Improvements
