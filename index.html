@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Travel Agency</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header-menu">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 section-title">Max Travel Agency</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="nav-menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about-us" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#main-destinations" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Main Destinations
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#dynamic-menu" class="nav-link">
+                            <i class="bi bi-star-fill me-1"></i>
+                            Exclusive Trips
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contact-us" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#nav-menu" data-bs-smooth-scroll >
+        <section id="about-us">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/slides/slide1.jpg" alt="iguacu falls">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/slides/slide2.jpg" alt="greece monument">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/slides/slide3.jpg" alt="bariloche hotel">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/about.jpg" class="d-block w-100 rounded" alt="Inside the agency">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">About <span class="text-colored">Us</span></h2>
+                            <p class="lead">
+                                Welcome to Max Travel Agency, a versatile web solution designed to showcase the endless possibilities of modern online commerce. Originally tailored for a travel agency, this demo is easily customizable for a variety of businesses, including Real Estate Agencies, Event Planning, Restaurants or Cafés, Digital Agencies, and E-commerce Stores. Elevate your online presence today! For more details, visit maxhaider.dev."
+                            </p>
+                            <h3 class="section-title">Vacation<span class="text-colored"> Packages</span></h3>
+                            <p>
+                                We have the best vacation packages tailored to suit your preferences. Whether you seek the tranquility of tropical beaches, the thrill of adventure in mountain retreats, or the cultural richness of historic cities, our packages cater to every traveler. Immerse yourself in unforgettable experiences with our carefully crafted itineraries, top-notch accommodations, and seamless travel arrangements. Discover the world with us and create memories that will last a lifetime 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main-destinations" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Main<span class="text-colored"> Destinations</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/cards/beachCard.jpg" alt="beach island" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4" >
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Beach Vacations</h3>
+                        <p>
+                            The beach! a place where you can relax and enjoy the sun, sand, and water. It is also a place where you can have fun with your friends and family. There are many different types of beaches, such as sandy beaches, rocky beaches, and pebble beaches. 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/cards/campCard.jpg" alt="forest camp" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4" >
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            County Camp</h3>
+                        <p>
+                            Country Camp is a great option for those who want to enjoy nature and relax, ride a horse, fish, swim in the lake, enjoy the pool, play sports, have fun with the family and friends, disconnect from the rush of the city and enjoy the tranquility of the countryside.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/cards/snowCard.jpg" alt="Skiing" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4" >
+                            <i class="bi bi-people-fill"></i>
+                            Skiing</h3>
+                        <p>
+                            Skiing is one of the most popular winter sports in the world. Fun and healthy, it is practiced by people of all ages. It is a sport that requires a lot of physical preparation, but it is also a sport that can be practiced by people of any level of preparation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dynamic-menu" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Explore <span class="text-colored"> our Packages</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-dynamic-menu">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#argentina" class="fw-bold text-start nav-link text-colored active">Argentina</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#brazil" class="fw-bold text-start nav-link text-colored">Brazil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#chile" class="fw-bold text-start nav-link text-colored">Chile</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cruise-ship" class="fw-bold text-start nav-link text-colored">Cruise Ship</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#greece" class="fw-bold text-start nav-link text-colored">Greece</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="argentina">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/bariloche/bariloche1.jpg" alt="Ski station bariloche">
+                                        <h5 class="text-colored fw-bold mt-2">Ski Station Bariloche</h5>
+                                        <p>
+                                            San Carlos de Bariloche have many turistic places to visit, like the Ski Station, the Nahuel Huapi Lake, the Cerro Catedral and many others.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/bariloche/bariloche2.jpg" alt="lake camp argentina">
+                                        <h5 class="text-colored fw-bold mt-2">Lake Camp</h5>
+                                        <p>
+                                            Expericence the best chales on the lake, with the best view of the mountains and the best food of the region on Argentina
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/bariloche/bariloche3.jpg" alt="mountain hotel">
+                                        <h5 class="text-colored fw-bold mt-2">Mountain Hotel</h5>
+                                        <p>
+                                            Expericence the best of the mountain hotel, with the best view of the mountains and the best food of the region on Argentina
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="brazil">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/brazil/brazil1.jpg" alt="Rio de Janeiro from above">
+                                        <h5 class="text-colored fw-bold mt-2">Rio de Janeiro Tour</h5>
+                                        <p>
+                                            Rio de Janeiro have many turistic places to visit, like the Christ the Redeemer, the Sugar Loaf, the Copacabana Beach and many others.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/brazil/brazil2.jpg" alt="Sao Paulo from above">
+                                        <h5 class="text-colored fw-bold mt-2">Sao Paulo Tour</h5>
+                                        <p>
+                                            Sao Paulo have many turistic places to visit, like the Ibirapuera Park, the MASP Museum, the Paulista Avenue and many others.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/brazil/brazil3.jpg" alt="arraial do cabo brazil caribian">
+                                        <h5 class="text-colored fw-bold mt-2">Arraial do Cabo</h5>
+                                        <p>
+                                            Arraial do Cabo is a municipality located in the Brazilian state of Rio de Janeiro. Considered one of the main diving points in Brazil, Arraial do Cabo has clear waters and abundant marine life, with the presence of turtles, squids, lobsters and even dolphins.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="chile">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/chile/chile1.jpg" alt="hand of deserted chile">
+                                        <h5 class="text-colored fw-bold mt-2">Hand of Deserted</h5>
+                                        <p>
+                                            The Hand of the Desert is a large-scale sculpture of a hand located in the Atacama Desert in Chile, 75 km to the south of the city of Antofagasta, on the Panamerican Highway. It is a visual reference point for travelers on the highway.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/chile/chile2.jpg" alt="patagonia glacier">
+                                        <h5 class="text-colored fw-bold mt-2">Patagonia Glacier </h5>
+                                        <p>
+                                            Patagonia Glacier is a must do when visiting Chile. Patagonia is a sparsely populated region at the southern end of South America, shared by Argentina and Chile. The region comprises the southern section of the Andes Mountains, lakes, fjords, and glaciers in the west and deserts, tablelands and steppes to the east.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/chile/chile3.jpg" alt="off-road expedition on chile">
+                                        <h5 class="text-colored fw-bold mt-2">Off-Road on Atacama</h5>
+                                        <p>
+                                            Off-Road on Atacama is a must do when visiting Chile. The Atacama Desert is a desert plateau in South America covering a 1,600 km strip of land on the Pacific coast, west of the Andes Mountains.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cruise-ship">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/cruizeShip/ship1.jpg" alt="cruise ship with buildins behind">
+                                        <h5 class="text-colored fw-bold mt-2">Europe Coast 6 Nights</h5>
+                                        <p>
+                                            Cruise Ship on Europe Coast, the packeges is 6 nights long and you can enjoy the best of the european sea. All inclusive with food and drinks.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/cruizeShip/ship2.jpg" alt="cruise ship from above">
+                                        <h5 class="text-colored fw-bold mt-2">Brazilian Coast 5 Nights</h5>
+                                        <p>
+                                            Cruise Ship on Brazilian Coast, the packeges is 5 nights long and you can enjoy the best of the brazilian sea. All inclusive with food and drinks.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/cruizeShip/ship3.jpg" alt="cruise chip on carebian waters">
+                                        <h5 class="text-colored fw-bold mt-2">Caribbean 3 Nights</h5>
+                                        <p>
+                                            Cruise Ship on caribbean waters, the packeges is 3 nights long and you can enjoy the best of the caribbean sea. All inclusive with food and drinks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="greece">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/greece/greece1.jpg" alt="monument on greece">
+                                        <h5 class="text-colored fw-bold mt-2">Athens Tour</h5>
+                                        <p>
+                                            Ahens tour is a must do when visiting Greece. Athens is the capital and largest city of Greece. Athens dominates the Attica region and is one of the world's oldest cities, with its recorded history spanning over 3,400 years and its earliest human presence started somewhere between the 11th and 7th millennium BC.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/greece/greece2.jpg" alt="beach on greece">
+                                        <h5 class="text-colored fw-bold mt-2">Navagio Tour</h5>
+                                        <p>
+                                            Navagio Beach, or Shipwreck Beach, is an exposed cove, sometimes referred to as 'Smugglers Cove', on the coast of Zakynthos, in the Ionian Islands of Greece. Navagio Beach was originally known as Agios Georgios.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="img/places/greece/greece3.jpg" alt="santorini greece">
+                                        <h5 class="text-colored fw-bold mt-2">Santorini Tour</h5>
+                                        <p>
+                                            Santorini tour is a must do when visiting Greece. Santorini is one of the most beautiful islands in the world. It is a volcanic island in the Cyclades group of the Greek islands. It is located between Ios and Anafi islands.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Contact <span class="text-colored">Us</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold text-colored">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Type your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="Type your e-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold text-colored">Phone (optional)</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Type your phone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold text-colored">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Type your message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Social Media
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Address
+                            </h3>
+                            <p>
+                                Rua Lorem Ipsum, 1234
+                            </p>
+                        </div>
+                </div>
+            </div>
+            <footer class="footer mt-auto py-3 bg-light" id="footer">
+                <div class="">
+                    <div class="row">
+                        <div class="col text-center">
+                            <span class="text-muted">&copy; 2024 - maxhaider.dev</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
