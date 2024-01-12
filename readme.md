@@ -11,7 +11,7 @@ Max Travel Agency is a versatile web solution designed to showcase the endless p
 
 ## How to Use
 
-![Demo GIF]()
+![Demo GIF](https://github.com/maxh33/travel-agency/raw/main/img/max-travel-agency-min.gif)
 
 To use Max Travel Agency, simply navigate to the website and explore the different sections. You can view different travel destinations, learn more about our services, and contact us for more information.
 
